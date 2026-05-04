@@ -1,1 +1,3 @@
--- Add your SQL here
+SELECT COUNT(ZIP_CODE) AS "Count", ZIP_CODE 
+FROM CONTACT_INFO
+HAVING ADDRESS = "Cityville" OR "Suburbia";
